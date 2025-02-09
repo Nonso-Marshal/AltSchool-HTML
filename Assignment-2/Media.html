@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Elements</title>
+    <style>
+        h1{
+            font-size: 25px;
+        }
+        .Responsive{
+            width: 90%;
+            min-width: 400px;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav aria-labelledby="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#Video">Video</a>
+                </li>
+                <li>
+                    <a href="#Audio">Audio</a>
+                </li>
+                <li>
+                    <a href="#Picture">Picture</a>
+                </li>
+                <li>
+                    <a href="#Embed">Embed</a>
+                </li>
+                <li>
+                    <a href="Iframe">Iframe</a>
+                </li>
+                <li>
+                    <a href="#Track">Track</a>
+                </li>
+                <li>
+                    <a href="#Source">Source</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="Video">
+            <section>
+                <h1><em>Video Element</em></h1>
+                <video controls src="./Assets/Project vid2.mp4" class="Responsive"></video>
+            </section>
+        </article>
+        <article id="Audio">
+            <section>
+                <h1><em>Audio Element</em></h1>
+                <audio controls src="./Assets/altschool Project audio.MP3"></audio>
+            </section>
+        </article>
+        <article id="Picture">
+            <section>
+                <h1><em>Picture Element</em></h1>
+                <picture>
+                    <img src="./Assets/Altschool img3.jpg" alt="Marshal" class="Responsive">
+                </picture>
+            </section>
+        </article>
+        <article id="Embed">
+            <section>
+                <h1><em>Embed Element</em></h1>
+                <embed src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xsdjVtZmh0NW4yNG90OWV1czBienR0M3EzODgyaTBneXhsYTEzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T8Dhl1KPyzRqU/giphy.gif" class="Responsive">
+            </section>
+        </article>
+        <article id="Iframe">
+            <section>
+                <h1><em>Iframe Element</em></h1>
+                <iframe src="https://www.youtube.com/embed/lJE5EmNtHtQ" title="AltSchool AFRICA ISA Agreement"></iframe>
+            </section>
+        </article id="Track">
+        <article>
+            <section>
+                <h1><em>Track Element</em></h1>
+                <video controls src="./Assets/Project vid2.mp4"><track src="./Assets/the.dogs.of.war.english-www.my-subs.co.vtt" default kind="captions" srclang="en" label="English">
+            </section>
+        </article>
+        <article id="Source">
+            <section>
+                <h1><em>Source Element</em></h1>
+                <video controls>
+                    <source class="Responsive" src="./Assets/Project vid2.mp4">
+                </video>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
