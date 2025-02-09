@@ -1,1 +1,1 @@
-# AltSchool-HTML
+# HTML-Assignments
